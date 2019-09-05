@@ -1,0 +1,17 @@
+@import './colors.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-layout {
+  background-color: $base-color;
+  color: $secondary-color;
+  .section {
+    color: $secondary-color;
+    font-size: 44px;
+    width: 90%;
+    // TODO remove when filed with content
+    height: 55vh;
+  }
+}
